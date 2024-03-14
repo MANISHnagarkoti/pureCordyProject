@@ -35,7 +35,7 @@ const Navbar = () => {
             <div className={nav ? " translate-x-0 opacity-100 transition-all duration-500 fixed top-0 block lg:hidden z-[99]" : " translate-x-[-100vw] opacity-0 transition-all duration-500 fixed top-0 z-[99]"}>
                 <div className="fixed bg-gray-200 w-[300px] text-colorOne gap-8 top-0 h-screen items-center flex flex-col justify-center text-4xl">
 
-<div className="absolute top-4 right-4" onClick={setNav(false)}><ion-icon name="close-outline"></ion-icon></div>
+<div className="absolute top-4 right-4" onClick={()=> setNav(false)}><ion-icon name="close-outline"></ion-icon></div>
 
                     <a href="">Home</a>
 
