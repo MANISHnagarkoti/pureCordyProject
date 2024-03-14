@@ -70,7 +70,7 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        <div className='col-span-2 w-[80%]'>
+                        <div className='col-span-2 w-full md:w-[80%]'>
                             <div className='text-2xl font-semibold'>Stay up to date</div>
 
                             <div className=' rounded-lg flex gap-2 items-center bg-gray-600 px-4 w-full mt-9'>
